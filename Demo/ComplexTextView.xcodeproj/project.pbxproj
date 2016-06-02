@@ -15,6 +15,12 @@
 		DAE1AB671CFFD9580060E075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE1AB651CFFD9580060E075 /* LaunchScreen.storyboard */; };
 		DAE1AB721CFFD9580060E075 /* ComplexTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB711CFFD9580060E075 /* ComplexTextViewTests.m */; };
 		DAE1AB7D1CFFD9580060E075 /* ComplexTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB7C1CFFD9580060E075 /* ComplexTextViewUITests.m */; };
+		DAE1AB901D0028320060E075 /* EmojiTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB8D1D0028320060E075 /* EmojiTextAttachment.m */; };
+		DAE1AB911D0028320060E075 /* NSAttributedString+EmojiExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB8F1D0028320060E075 /* NSAttributedString+EmojiExtension.m */; };
+		DAE1AB951D00284B0060E075 /* LVRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB941D00284B0060E075 /* LVRecordTool.m */; };
+		DAE1AB981D0028FE0060E075 /* AssignedTaskTxtView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB971D0028FE0060E075 /* AssignedTaskTxtView.m */; };
+		DAE1AB9B1D0029250060E075 /* LabelAutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB9A1D0029250060E075 /* LabelAutoSize.m */; };
+		DAE1AB9E1D00293F0060E075 /* CustomTxtView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1AB9D1D00293F0060E075 /* CustomTxtView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		DAE1AB781CFFD9580060E075 /* ComplexTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplexTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE1AB7C1CFFD9580060E075 /* ComplexTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplexTextViewUITests.m; sourceTree = "<group>"; };
 		DAE1AB7E1CFFD9580060E075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE1AB8C1D0028320060E075 /* EmojiTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiTextAttachment.h; sourceTree = "<group>"; };
+		DAE1AB8D1D0028320060E075 /* EmojiTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiTextAttachment.m; sourceTree = "<group>"; };
+		DAE1AB8E1D0028320060E075 /* NSAttributedString+EmojiExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+EmojiExtension.h"; sourceTree = "<group>"; };
+		DAE1AB8F1D0028320060E075 /* NSAttributedString+EmojiExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+EmojiExtension.m"; sourceTree = "<group>"; };
+		DAE1AB931D00284B0060E075 /* LVRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVRecordTool.h; sourceTree = "<group>"; };
+		DAE1AB941D00284B0060E075 /* LVRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVRecordTool.m; sourceTree = "<group>"; };
+		DAE1AB961D0028FE0060E075 /* AssignedTaskTxtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignedTaskTxtView.h; sourceTree = "<group>"; };
+		DAE1AB971D0028FE0060E075 /* AssignedTaskTxtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignedTaskTxtView.m; sourceTree = "<group>"; };
+		DAE1AB991D0029250060E075 /* LabelAutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelAutoSize.h; sourceTree = "<group>"; };
+		DAE1AB9A1D0029250060E075 /* LabelAutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelAutoSize.m; sourceTree = "<group>"; };
+		DAE1AB9C1D00293F0060E075 /* CustomTxtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTxtView.h; sourceTree = "<group>"; };
+		DAE1AB9D1D00293F0060E075 /* CustomTxtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTxtView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		DAE1AB561CFFD9580060E075 /* ComplexTextView */ = {
 			isa = PBXGroup;
 			children = (
+				DAE1AB8A1D0028130060E075 /* ComplexTextViewFrame */,
 				DAE1AB5A1CFFD9580060E075 /* AppDelegate.h */,
 				DAE1AB5B1CFFD9580060E075 /* AppDelegate.m */,
 				DAE1AB5D1CFFD9580060E075 /* ViewController.h */,
@@ -138,6 +157,41 @@
 				DAE1AB7E1CFFD9580060E075 /* Info.plist */,
 			);
 			path = ComplexTextViewUITests;
+			sourceTree = "<group>";
+		};
+		DAE1AB8A1D0028130060E075 /* ComplexTextViewFrame */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1AB991D0029250060E075 /* LabelAutoSize.h */,
+				DAE1AB9A1D0029250060E075 /* LabelAutoSize.m */,
+				DAE1AB961D0028FE0060E075 /* AssignedTaskTxtView.h */,
+				DAE1AB971D0028FE0060E075 /* AssignedTaskTxtView.m */,
+				DAE1AB9C1D00293F0060E075 /* CustomTxtView.h */,
+				DAE1AB9D1D00293F0060E075 /* CustomTxtView.m */,
+				DAE1AB921D00284B0060E075 /* VoiceRecordingTool */,
+				DAE1AB8B1D0028320060E075 /* GetPlainString */,
+			);
+			name = ComplexTextViewFrame;
+			sourceTree = "<group>";
+		};
+		DAE1AB8B1D0028320060E075 /* GetPlainString */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1AB8C1D0028320060E075 /* EmojiTextAttachment.h */,
+				DAE1AB8D1D0028320060E075 /* EmojiTextAttachment.m */,
+				DAE1AB8E1D0028320060E075 /* NSAttributedString+EmojiExtension.h */,
+				DAE1AB8F1D0028320060E075 /* NSAttributedString+EmojiExtension.m */,
+			);
+			path = GetPlainString;
+			sourceTree = "<group>";
+		};
+		DAE1AB921D00284B0060E075 /* VoiceRecordingTool */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1AB931D00284B0060E075 /* LVRecordTool.h */,
+				DAE1AB941D00284B0060E075 /* LVRecordTool.m */,
+			);
+			path = VoiceRecordingTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE1AB951D00284B0060E075 /* LVRecordTool.m in Sources */,
+				DAE1AB9E1D00293F0060E075 /* CustomTxtView.m in Sources */,
 				DAE1AB5F1CFFD9580060E075 /* ViewController.m in Sources */,
+				DAE1AB911D0028320060E075 /* NSAttributedString+EmojiExtension.m in Sources */,
 				DAE1AB5C1CFFD9580060E075 /* AppDelegate.m in Sources */,
+				DAE1AB901D0028320060E075 /* EmojiTextAttachment.m in Sources */,
+				DAE1AB981D0028FE0060E075 /* AssignedTaskTxtView.m in Sources */,
+				DAE1AB9B1D0029250060E075 /* LabelAutoSize.m in Sources */,
 				DAE1AB591CFFD9580060E075 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +556,7 @@
 				DAE1AB831CFFD9580060E075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAE1AB841CFFD9580060E075 /* Build configuration list for PBXNativeTarget "ComplexTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +565,7 @@
 				DAE1AB861CFFD9580060E075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAE1AB871CFFD9580060E075 /* Build configuration list for PBXNativeTarget "ComplexTextViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +574,7 @@
 				DAE1AB891CFFD9580060E075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

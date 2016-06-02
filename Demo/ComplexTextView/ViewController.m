@@ -16,8 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+/**
+ *  将View转化成Image
+ *
+ *  @param myView View
+ *
+ *  @return image
+ */
+-(UIImage *)ViewToImage:(UIView *)myView{
+    UIGraphicsBeginImageContext(myView.bounds.size);
+    [myView.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return viewImage;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
