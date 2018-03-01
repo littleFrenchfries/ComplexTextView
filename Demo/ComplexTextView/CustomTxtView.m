@@ -41,7 +41,7 @@
         NSRange start = [self.text rangeOfCharacterFromSet:[NSCharacterSet whitespaceAndNewlineCharacterSet] options:NSBackwardsSearch range:NSMakeRange(0, characterIndex)];
         NSRange stop = [self.text rangeOfCharacterFromSet:[NSCharacterSet whitespaceAndNewlineCharacterSet] options:NSCaseInsensitiveSearch range:NSMakeRange(characterIndex, self.text.length-characterIndex)];
         
-        int length =  stop.location - start.location;
+        int length =  (int)(stop.location - start.location);
         if (length>=0) {
             self.editable = YES;
             
